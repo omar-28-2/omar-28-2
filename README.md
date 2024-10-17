@@ -71,7 +71,7 @@ I also contribute as a **Junior Mentor** at the **NU ICPC Community**, where I a
 
 ### 📫 How to reach me
 
-- **Email**: [omarelhosany3@gmail.com](mailto:omarelhosany3@gmail.com)
+- **Email**: [omarelhossiny85@gmail.com](mailto:omarelhossiny85@gmail.com)
 - **LinkedIn**: [linkedin.com/in/omar-elhossiny](https://www.linkedin.com/in/omar-elhossiny-530553261/)
 - **Codeforces**: [omarelhosany3](https://codeforces.com/profile/omarelhosany3)
 

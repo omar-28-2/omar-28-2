@@ -53,7 +53,7 @@ Additionally, I contribute as a **Junior Mentor** at the **NU ICPC Community**, 
   A web-based platform for managing events, registrations, and vendor coordination.  
   [🔗 View Repository](https://github.com/omar-28-2/Event-Management-System)
 
-- **Economic Growth Prediction** (Machine Learning)  
+- **Economic Growth Prediction** (Data Analysis & Machine Learning)  
   A data-driven project utilizing machine learning to predict economic growth trends.  
   [🔗 View Repository](https://github.com/omar-28-2/Economic-Growth-Prediction)
 

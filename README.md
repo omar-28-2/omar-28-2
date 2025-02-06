@@ -34,7 +34,7 @@ Additionally, I contribute as a **Junior Mentor** at the **NU ICPC Community**, 
   - Built and optimized APIs and managed databases using **Microsoft SQL Server**.
 
 - **Junior Teaching Assistant** @ Nile University  
-  - Assisted students in **Discrete Mathematics** and **Data Structures** courses.
+  - Assisted students in **Discrete Mathematics** and **Data Structures** and **Introduction to programming(Python)** and **Advanced programming (Java)** courses.
   - Supported in grading and providing problem-solving strategies.
 
 - **Junior Mentor** @ NU ICPC Community  

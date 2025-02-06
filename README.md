@@ -46,16 +46,20 @@ Additionally, I contribute as a **Junior Mentor** at the **NU ICPC Community**, 
 ## 📚 Projects
 
 - **Sorting Algorithms Visualizer** (Python)  
-  A Python application to visualize common sorting algorithms like Merge Sort, Quick Sort, and Bubble Sort.
+  A Python application to visualize common sorting algorithms like Merge Sort, Quick Sort, and Bubble Sort.  
+  [🔗 View Repository](https://github.com/omar-28-2/Sorting-Algorithm-Visualizer)
 
-- **Python YouTube Downloader** (Python)  
-  A script to download videos from YouTube using `pytube`.
+- **Event Management System** (Django)  
+  A web-based platform for managing events, registrations, and vendor coordination.  
+  [🔗 View Repository](https://github.com/omar-28-2/Event-Management-System)
 
-- **Integrated Inventory Management System** (C++)  
-  A complete inventory management system implemented in C++, featuring CRUD operations and inventory analytics.
+- **Economic Growth Prediction** (Machine Learning)  
+  A data-driven project utilizing machine learning to predict economic growth trends.  
+  [🔗 View Repository](https://github.com/omar-28-2/Economic-Growth-Prediction)
 
 - **Pharmacy App** (Java)  
-  An Android-based app to manage pharmacy operations, including prescriptions and inventory management.
+  An Android-based app to manage pharmacy operations, including prescriptions and inventory management.  
+  [🔗 View Repository](https://github.com/omar-28-2/Pharmacy-App)
 
 ---
 

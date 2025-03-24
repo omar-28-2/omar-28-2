@@ -23,7 +23,7 @@ Additionally, I contribute as a **Junior Mentor** at the **NU ICPC Community**, 
 ## 🏅 Competitive Programming
 
 - **Codeforces Handle**: [omarelhosany3](https://codeforces.com/profile/omarelhosany3)  
-- **Contest Rating**: 906 (Newbie)  
+- **Contest Rating**: 1002 (Newbie)  
 
 ---
 

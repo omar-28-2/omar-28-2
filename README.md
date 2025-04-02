@@ -4,70 +4,98 @@
 
 ## 🚀 About Me
 
-I am a **Computer Science junior** at **Nile University**, passionate about programming, problem-solving, and backend development. As a competitive programmer, I enjoy solving algorithmic challenges and participating in coding contests. I have hands-on experience in backend development using **C#** and **.NET**, gained during my internship at **Raya Trade**, where I focused on building APIs and managing databases.
+I’m an aspiring **Junior Software Engineer** and **Computer Science student at Nile University**, passionate about backend development, problem-solving, and building scalable applications. I'm currently training as a **Full Stack .NET Web Developer** through the **Digital Egypt Pioneers Initiative (DEPI)**, gaining experience in modern tools and technologies.
 
-Additionally, I contribute as a **Junior Mentor** at the **NU ICPC Community**, helping students solve complex algorithmic problems and prepare for programming contests.
+I’m also a **competitive programmer**, active in the **NU ICPC Community**, where I help others sharpen their algorithmic thinking and problem-solving skills. I’ve worked on multiple real-world projects using **C#, .NET, SQL, and Python**, and I’m always excited to learn more and contribute to impactful tech solutions.
 
 ---
 
 ## 💡 Technical Skills
 
 - **Languages**: C#, C++, Python, Java, SQL  
-- **Frameworks & Tools**: .NET Framework, Microsoft SQL Server, GitHub, Git, Odoo  
-- **Databases**: SQL, Microsoft SQL Server, MySQL  
-- **Backend Development**: REST APIs, Database Design, Version Control  
-- **Competitive Programming**: Data Structures, Algorithms, Problem Solving, Mathematics  
+- **Frameworks & Tools**: .NET Core, ASP.NET MVC, EF Core, Django, Microsoft SQL Server, Git, GitHub, Docker  
+- **Databases**: Microsoft SQL Server, MySQL  
+- **Concepts**: REST APIs, System Architecture, Design Patterns, SOLID Principles, API Documentation  
+- **Other**: Prompt Engineering, Version Control, Unit Testing  
+- **Soft Skills**: Problem-Solving, Team Collaboration, Project Management  
 
 ---
 
 ## 🏅 Competitive Programming
 
 - **Codeforces Handle**: [omarelhosany3](https://codeforces.com/profile/omarelhosany3)  
-- **Contest Rating**: 1002 (Newbie)  
+- **Rating**: 1002 (Newbie)  
+- **Community**: Junior Mentor at NU ICPC Community  
 
 ---
 
 ## 💼 Experience
 
-- **Backend Development Intern** @ [Raya Trade](https://www.rayatrade.com)  
-  - Focused on **C#** and **.NET** for backend development.
-  - Built and optimized APIs and managed databases using **Microsoft SQL Server**.
+### 🔧 Full Stack .NET Web Developer Trainee @ [Digital Egypt Pioneers Initiative - DEPI](https://depi.gov.eg)  
+*Oct 2024 – Present | Cairo, Egypt (Hybrid)*  
+- Built full-stack applications using **C#, ASP.NET Core MVC**, and **.NET Web APIs**  
+- Worked with **SQL**, containerization using **Docker**, and frontend basics with **HTML, CSS, JS**  
+- Collaborated on a Capstone Project integrating all learned technologies
 
-- **Junior Teaching Assistant** @ Nile University  
-  - Assisted students in **Discrete Mathematics** and **Data Structures** and **Introduction to programming(Python)** and **Advanced programming (Java)** courses.
-  - Supported in grading and providing problem-solving strategies.
+### 🧠 Junior Teaching Assistant @ Nile University  
+*Oct 2024 – Present*  
+- Mentored students in **Python (Intro to Programming)** and **Java (Advanced Programming)**  
+- Guided problem-solving in **Discrete Math**, **Data Structures**, and basic coding logic
 
-- **Junior Mentor** @ NU ICPC Community  
-  - Trained and mentored students in **competitive programming**.
-  - Helped students develop strategies to tackle **algorithmic** challenges.
+### 💼 Backend Development Intern @ Raya Trade  
+*Aug 2024*  
+- Developed scalable backend systems using **C# and .NET Framework**  
+- Worked on **API development**, **SQL Server** management, and backend optimizations  
 
 ---
 
-## 📚 Projects
+## 📚 Notable Projects
+
+- **Spend Smart** (C#, ASP.NET)  
+  Budgeting and expense management tool with real-time tracking.
 
 - **Sorting Algorithms Visualizer** (Python)  
-  A Python application to visualize common sorting algorithms like Merge Sort, Quick Sort, and Bubble Sort.  
+  Visualized Merge Sort, Quick Sort, and more with real-time animations.  
   [🔗 View Repository](https://github.com/omar-28-2/Sorting-Algorithm-Visualizer)
 
-- **Event Management System** (Django)  
-  A web-based platform for managing events, registrations, and vendor coordination.  
-  [🔗 View Repository](https://github.com/omar-28-2/Event-Management-System)
-
-- **Economic Growth Prediction** (Data Analysis & Machine Learning)  
-  A data-driven project utilizing machine learning to predict economic growth trends.  
+- **Economic Growth Prediction** (Python, ML, Data Analysis)  
+  Predictive model using **VIIRS and Ookla data** to study digital infrastructure vs. economic growth.  
   [🔗 View Repository](https://github.com/omar-28-2/Economic-Growth-Prediction)
 
+- **Event Management System (Ticketawy)** (Python, Django)  
+  Web platform for event planning, registrations, and vendor coordination.  
+  [🔗 View Repository](https://github.com/omar-28-2/Event-Management-System)
+
 - **Pharmacy App** (Java)  
-  An Android-based app to manage pharmacy operations, including prescriptions and inventory management.  
+  Inventory and prescription tracking for pharmacies.  
   [🔗 View Repository](https://github.com/omar-28-2/Pharmacy-App)
+
+---
+
+## 📜 Certifications
+
+- **Version Control** – Meta (Sep 2024)  
+- **Introduction to Databases** – Meta (Aug 2024)  
+- **Software Testing** – Institute of Management, Technology and Finance (Aug 2024)  
+- **ICPC Certification** – International Collegiate Programming Contest (Jul 2024)  
+- **Error Competition** – IEEE HIT Student Branch (Jul 2023)  
+
+---
+
+## 🧠 Related Coursework
+
+- **Advanced Computer Programming (Java)**  
+- **Data Structures & Algorithms**, **Design & Analysis of Algorithms** (Python)  
+- **Software Engineering**, **Operating Systems**, **Database Systems**  
+- **Logic Design**, **Digital Image Processing**, **Project Management**, **Data Analysis**
 
 ---
 
 ## 🌱 Currently Learning
 
-- Advanced algorithms and data structures.  
-- Cloud computing platforms like AWS and Azure.  
-- Microservices architecture.  
+- Cloud platforms: **AWS**, **Azure**  
+- **Microservices architecture** and container orchestration  
+- Advanced **algorithms and competitive programming**
 
 ---
 
@@ -76,6 +104,7 @@ Additionally, I contribute as a **Junior Mentor** at the **NU ICPC Community**, 
 - **Email**: [omarelhossiny85@gmail.com](mailto:omarelhossiny85@gmail.com)  
 - **LinkedIn**: [linkedin.com/in/omar-elhossiny](https://www.linkedin.com/in/omar-elhossiny-530553261/)  
 - **Codeforces**: [omarelhosany3](https://codeforces.com/profile/omarelhosany3)  
+- **GitHub**: [omar-28-2](https://github.com/omar-28-2)
 
 ---
 
@@ -83,4 +112,5 @@ Additionally, I contribute as a **Junior Mentor** at the **NU ICPC Community**, 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-elhossiny-530553261/)  
 [![Codeforces](https://img.shields.io/badge/Codeforces-004085?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/omarelhosany3)  
+[![GitHub](https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omar-28-2)
 

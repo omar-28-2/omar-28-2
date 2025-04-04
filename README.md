@@ -5,7 +5,7 @@
 - 💻 Currently training in full-stack .NET development with DEPI.  
 - 🚀 I love learning new tech and building cool software with purpose.
 
-## 🧰 Tech Stack (1-liner)
+## 🧰 Tech Stack
 C#, .NET, ASP.NET Core MVC, SQL, Python, Java, Git, Docker, REST APIs
 
 ## 📬 Let’s Connect

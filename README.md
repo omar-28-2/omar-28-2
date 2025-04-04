@@ -1,9 +1,9 @@
 # Helloo, I’m Omar 👨‍💻✨
 
-- 🧠 I’m passionate about backend development and solving real-world problems with code.  
-- 🧩 Competitive programmer and proud NU ICPC community mentor.  
-- 💻 Currently training in full-stack .NET development with DEPI.  
-- 🚀 I love learning new tech and building cool software with purpose.
+- 🧠 Passionate about backend development and solving real-world problems through code  
+- 🧩 Competitive programmer and proud NU ICPC community mentor  
+- 💻 Currently training in full-stack .NET development with DEPI  
+- 🚀 Always eager to learn new tech and build meaningful software
 
 ## 🧰 Tech Stack
 C#, .NET, ASP.NET Core MVC, SQL, Python, Java, Git, Docker, REST APIs
@@ -12,11 +12,10 @@ C#, .NET, ASP.NET Core MVC, SQL, Python, Java, Git, Docker, REST APIs
 - 📧 omarelhossiny85@gmail.com  
 - 🌐 [LinkedIn](https://www.linkedin.com/in/omar-elhossiny-530553261)  
 - 💻 [Codeforces](https://codeforces.com/profile/omarelhosany3)  
-- 📁 [GitHub](https://github.com/omar-28-2)
+- 📁 [GitHub](https://github.com/omar-28-2)  
+- 📄 [View My CV](https://drive.google.com/file/d/1-xUvxjWyGOz8rEJVQGzwvMZUQXkkX6Vo/view?usp=sharing)
 
 ## 🤓 Fun Facts
-- 💡 My debugging style = stare ➡️ panic ➡️ solve it anyway.  
-- 🧩 I treat problems like puzzles — can’t leave until I crack them!  
-- 🧠 Dreaming of building a personal assistant smarter than Jarvis!
-
-
+- 💡 Debugging style: stare ➡️ panic ➡️ solve it anyway  
+- 🧩 I treat problems like puzzles—can’t rest until I crack them  
+- 🤖 I’m learning AI to build a Jarvis-like assistant!

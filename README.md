@@ -31,7 +31,7 @@ Frontend built with Next.js and Tailwind, backend implemented in Flask with opti
 - 🌐 [LinkedIn](https://www.linkedin.com/in/omar-elhossiny-530553261)  
 - 💻 [Codeforces](https://codeforces.com/profile/HossHoss)  
 - 📁 [GitHub](https://github.com/omar-28-2)
-- 📄 [View My CV](https://drive.google.com/file/d/1-xUvxjWyGOz8rEJVQGzwvMZUQXkkX6Vo/view?usp=sharing)
+- 📄 [View My CV](https://drive.google.com/file/d/1iWxCb0QD1fMzLLotyJjtUklm1-QdcKW7/view?usp=sharing)
 
 
 ## 🤓 Fun Facts

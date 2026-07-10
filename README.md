@@ -48,8 +48,9 @@ graph TD
     Tools --> T1[Git / Docker]:::tool
     Tools --> T2[CI/CD]:::tool
     Tools --> T3[Clean Arch]:::tool
-
 ```
+
+---
 
 ## 🔗 Career Path — Union-Find, visualized
 
@@ -119,16 +120,16 @@ graph TD
 
 Each skill is hashed into a bucket by category. Collisions are chained.
 
-```
+```text
  index │ bucket key        │ chain (collisions)
-───────┼────────────────────┼──────────────────────────────────────────
-  0    │ Languages          │ → C# → Python → Java → C++
-  1    │ Backend/APIs       │ → ASP.NET Core → FastAPI → Django → .NET Core Web API → REST APIs
-  2    │ AI & Data Eng.     │ → RAG → Qdrant → Cross-Encoder Re-ranking → LLM Deployment
-  3    │ Frontend           │ → Next.js → HTML5 → CSS3 → JavaScript → Tailwind → Bootstrap → jQuery
-  4    │ Databases          │ → SQL Server → PostgreSQL → MySQL → Supabase
-  5    │ Tools & Practices  │ → Git → GitHub → Docker → Unit Testing → System Design → Design Patterns
-  6    │ Competitive Prog.  │ → Codeforces Specialist → Advanced Algorithmic Thinking
+───────┼───────────────────┼──────────────────────────────────────────
+  0    │ Languages         │ → C# → Python → Java → C++
+  1    │ Backend/APIs      │ → ASP.NET Core → FastAPI → Django → .NET Core Web API → REST APIs
+  2    │ AI & Data Eng.    │ → RAG → Qdrant → Cross-Encoder Re-ranking → LLM Deployment
+  3    │ Frontend          │ → Next.js → HTML5 → CSS3 → JavaScript → Tailwind → Bootstrap → jQuery
+  4    │ Databases         │ → SQL Server → PostgreSQL → MySQL → Supabase
+  5    │ Tools & Practices │ → Git → GitHub → Docker → Unit Testing → System Design → Design Patterns
+  6    │ Competitive Prog. │ → Codeforces Specialist → Advanced Algorithmic Thinking
 ```
 
 ```mermaid
@@ -158,7 +159,7 @@ graph LR
 graph TD
     Edu(("BS Computer Science<br/>Nile University"))
     Edu --> E1["GPA: 3.80 / 4.00<br/>Highest Honors"]
-    Edu --> E2["2022 – Present<br/>Expected: Summer 2026"]
+    Edu --> E2["Graduated: July 2026"]
 
     style Edu fill:#1f3a5f,color:#fff
 ```

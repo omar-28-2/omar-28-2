@@ -133,25 +133,21 @@ Each skill is hashed into a bucket by category. Collisions are chained.
 
 ```mermaid
 graph LR
-    H[("hash()")]
+    classDef hash fill:#ff3366,color:#fff,stroke:#fff,stroke-width:2px,font-weight:bold
+    classDef bucket fill:#333,color:#fff,stroke:#666
+    classDef item fill:#1f3a5f,color:#fff,stroke:#fff
 
-    H --> B0["bucket 0<br/>Languages"]
-    H --> B1["bucket 1<br/>Backend/APIs"]
-    H --> B2["bucket 2<br/>AI & Data Eng"]
-    H --> B3["bucket 3<br/>Frontend"]
-    H --> B4["bucket 4<br/>Databases"]
-    H --> B5["bucket 5<br/>Tools"]
-    H --> B6["bucket 6<br/>Comp. Prog."]
+    H[("hash()")]:::hash
 
-    B0 --> B0a[C#] --> B0b[Python] --> B0c[Java] --> B0d[C++]
-    B1 --> B1a[ASP.NET Core] --> B1b[FastAPI] --> B1c[Django] --> B1d[.NET Core Web API]
-    B2 --> B2a[RAG] --> B2b[Qdrant] --> B2c[Cross-Encoder] --> B2d[LLM Deploy]
-    B3 --> B3a[Next.js] --> B3b[Tailwind] --> B3c[Bootstrap] --> B3d[jQuery]
-    B4 --> B4a[SQL Server] --> B4b[PostgreSQL] --> B4c[MySQL] --> B4d[Supabase]
-    B5 --> B5a[Git/GitHub] --> B5b[Docker] --> B5c[CI/CD] --> B5d[Design Patterns]
-    B6 --> B6a[Codeforces Specialist] --> B6b[Algorithmic Thinking]
+    H --> B0["0: Backend"]:::bucket
+    H --> B1["1: AI/Data"]:::bucket
+    H --> B2["2: Databases"]:::bucket
+    H --> B3["3: CS Core"]:::bucket
 
-    style H fill:#7a2626,color:#fff,stroke:#fff,stroke-width:2px
+    B0 --> B0a[ASP.NET Core]:::item --> B0b[FastAPI]:::item --> B0c[Django]:::item
+    B1 --> B1a[RAG]:::item --> B1b[Qdrant]:::item --> B1c[LLMs]:::item
+    B2 --> B2a[SQL Server]:::item --> B2b[PostgreSQL]:::item --> B2c[MySQL]:::item
+    B3 --> B3a[Algorithmic Rigor]:::item --> B3b[Time/Space Complexity]:::item --> B3c[System Design]:::item
 ```
 
 ---

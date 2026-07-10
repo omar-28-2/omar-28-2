@@ -49,26 +49,24 @@ graph TD
     Tools --> T2[CI/CD]:::tool
     Tools --> T3[Clean Arch]:::tool
 
+```
+
 ## 🔗 Career Path — Union-Find, visualized
 
 Every role is a node. Over time, each one gets **union()'d** into the same connected component — one engineer, one growing tree of experience.
 
 ```mermaid
 graph BT
-    Omar((Omar<br/>root of the set))
+    classDef root fill:#ff3366,color:#fff,stroke:#fff,stroke-width:2px,font-weight:bold
+    classDef node fill:#2b2b2b,color:#fff,stroke:#888,stroke-width:1px
 
-    R1[Backend Dev Intern<br/>Raya Trade<br/>Aug–Sep 2024] --> R2
-    R2[Junior TA<br/>Nile University<br/>Feb 2024–Feb 2025] --> R3
-    R3[Full Stack .NET Trainee<br/>DEPI<br/>Oct 2024–May 2025] --> R4
-    R4[Vice Head, SWE Course<br/>GDG Nile University<br/>Mar–Jun 2025] --> R5
-    R5[Head of Technical<br/>NU Students' Union<br/>Jun 2025–Present] --> Omar
+    Omar((Omar<br/>root of the set)):::root
 
-    style Omar fill:#7a2626,color:#fff,stroke:#fff,stroke-width:2px
-    style R1 fill:#333,color:#fff
-    style R2 fill:#333,color:#fff
-    style R3 fill:#333,color:#fff
-    style R4 fill:#333,color:#fff
-    style R5 fill:#333,color:#fff
+    R1[Backend Dev Intern<br/>Raya Trade]:::node --> R2
+    R2[Junior TA<br/>Nile University]:::node --> R3
+    R3[Full Stack .NET Trainee<br/>DEPI]:::node --> R4
+    R4[Vice Head, SWE Course<br/>GDG]:::node --> R5
+    R5[Head of Technical<br/>NU Students' Union]:::node --> Omar
 ```
 
 | Node | Interval | Path-compressed summary |

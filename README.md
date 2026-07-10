@@ -1,173 +1,196 @@
-# `class OmarElhossiny : public BackendEngineer, AIEngineer, CompetitiveProgrammer`
+# Omar Elhossiny
+**Backend Software Engineer** · CS Graduate, Nile University (Highest Honors, 3.80 GPA) · Codeforces Specialist
+📧 omarelhossiny85@gmail.com · [LinkedIn](https://www.linkedin.com/in/omar-elhossiny) · [Codeforces](https://codeforces.com/profile/HossHoss) · [GitHub](https://github.com/omar-28-2)
 
-```cpp
-struct Omar {
-    string role     = "Backend Software Engineer";
-    string status   = "CS Graduate @ Nile University";
-    double gpa      = 3.80;          // Highest Honors
-    string rank     = "Codeforces Specialist";
-    string mission  = "Seeking full-time Backend / SWE roles";
-};
-```
-
-> "I treat architectural bottlenecks like competitive programming constraints —
-> strictly optimizing for exact time and space complexity."
+> Actively seeking full-time Backend / Software Engineering roles.
 
 ---
 
-## 🌲 Tech Stack — represented as a Segment Tree (query any range, get the right tool)
+## 🌲 Tech Stack — as a Tree
 
+```mermaid
+graph TD
+    Root((Tech Stack))
+
+    Root --> Lang(Languages)
+    Root --> Back(Backend & APIs)
+    Root --> AI(AI & Data Engineering)
+    Root --> DB(Databases)
+    Root --> Tools(Tools & Practice)
+
+    Lang --> L1[C#]
+    Lang --> L2[Python]
+    Lang --> L3[Java]
+    Lang --> L4[C++]
+
+    Back --> B1[ASP.NET Core / MVC]
+    Back --> B2[FastAPI — ASGI]
+    Back --> B3[Django]
+    Back --> B4[.NET Core Web API]
+    Back --> B5[REST APIs]
+
+    AI --> A1[RAG Pipelines]
+    AI --> A2[Qdrant Vector DB]
+    AI --> A3[Cross-Encoder Re-ranking]
+    AI --> A4[LLM Deployment]
+
+    DB --> D1[SQL Server]
+    DB --> D2[PostgreSQL]
+    DB --> D3[MySQL]
+    DB --> D4[Supabase]
+
+    Tools --> T1[Git / GitHub]
+    Tools --> T2[Docker]
+    Tools --> T3[CI/CD]
+    Tools --> T4[Clean Architecture]
+    Tools --> T5[EF Core]
+
+    style Root fill:#2b2b2b,color:#fff,stroke:#888
+    style Lang fill:#1f3a5f,color:#fff
+    style Back fill:#1f3a5f,color:#fff
+    style AI fill:#1f3a5f,color:#fff
+    style DB fill:#1f3a5f,color:#fff
+    style Tools fill:#1f3a5f,color:#fff
 ```
-                              ┌────────────────────┐
-                              │      TechStack      │
-                              │   (root, O(1) init) │
-                              └──────────┬───────────┘
-              ┌───────────────┬──────────┴───────────┬───────────────┐
-              ▼               ▼                      ▼               ▼
-        ┌───────────┐   ┌───────────┐          ┌───────────┐   ┌───────────┐
-        │ Languages │   │ Backend/  │          │  AI/Data  │   │ Databases │
-        │           │   │   APIs    │          │ Engineer  │   │           │
-        └─────┬─────┘   └─────┬─────┘          └─────┬─────┘   └─────┬─────┘
-              │               │                      │               │
-   C#, Python,    ASP.NET Core, FastAPI,     RAG, Qdrant,      SQL Server,
-   Java, C++      Django, .NET Core,         Cross-Encoder     PostgreSQL,
-                   ASGI, REST APIs           Re-ranking, LLM    MySQL, Supabase
-                                             Deployment
-```
-
-**Leaf-level tools & practices:** Git · Docker · Linux · CI/CD · Clean Architecture ·
-EF Core · Design Patterns · Unit Testing
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-</p>
 
 ---
 
-## 🔗 Career Path — a Union-Find (DSU) of merged experience sets
+## 🔗 Career Path — Union-Find, visualized
 
-Every role gets `union()`-ed into the same connected component: **"Engineer who ships production systems."**
+Every role is a node. Over time, each one gets **union()'d** into the same connected component — one engineer, one growing tree of experience.
 
-```python
-parent = {}
+```mermaid
+graph BT
+    Omar((Omar<br/>root of the set))
 
-def find(x):
-    if parent[x] != x:
-        parent[x] = find(parent[x])   # path compression
-    return parent[x]
+    R1[Backend Dev Intern<br/>Raya Trade<br/>Aug–Sep 2024] --> R2
+    R2[Junior TA<br/>Nile University<br/>Feb 2024–Feb 2025] --> R3
+    R3[Full Stack .NET Trainee<br/>DEPI<br/>Oct 2024–May 2025] --> R4
+    R4[Vice Head, SWE Course<br/>GDG Nile University<br/>Mar–Jun 2025] --> R5
+    R5[Head of Technical<br/>NU Students' Union<br/>Jun 2025–Present] --> Omar
 
-def union(a, b):
-    ra, rb = find(a), find(b)
-    if ra != rb:
-        parent[ra] = rb               # union by rank(seniority)
-
-# Timeline of unions (most recent first):
-union("Head of Technical, NU Students' Union",              "Omar")   # Jun 2025 – Present
-union("Vice Head, SWE Course @ GDG Nile University",         "Omar")   # Mar 2025 – Jun 2025
-union("Full Stack .NET Trainee, DEPI",                       "Omar")   # Oct 2024 – May 2025
-union("Junior Teaching Assistant, Nile University",          "Omar")   # Feb 2024 – Feb 2025
-union("Backend Development Intern, Raya Trade",               "Omar")   # Aug 2024 – Sep 2024
-
-assert find("Backend Development Intern, Raya Trade") == find("Head of Technical, NU Students' Union")
-# -> True: one connected component, one engineer.
+    style Omar fill:#7a2626,color:#fff,stroke:#fff,stroke-width:2px
+    style R1 fill:#333,color:#fff
+    style R2 fill:#333,color:#fff
+    style R3 fill:#333,color:#fff
+    style R4 fill:#333,color:#fff
+    style R5 fill:#333,color:#fff
 ```
 
-| Component (Role) | Interval | What got merged in |
+| Node | Interval | Path-compressed summary |
 |---|---|---|
-| **Head of Technical** — NU Students' Union | Jun 2025 – Present | Led an engineering team to architect, deploy, and maintain campus-wide platforms & registration systems; owned full SDLC (design → review → deploy) |
-| **Vice Head, SWE Course** — GDG Nile University | Mar 2025 – Jun 2025 | Co-designed curriculum with NU IECC; mentored 60+ junior students on end-to-end software architecture |
-| **Full Stack .NET Trainee** — DEPI | Oct 2024 – May 2025 | Built full-stack apps with C#, ASP.NET Core MVC, SQL Server in Agile sprints; CI, unit testing, Docker |
-| **Junior Teaching Assistant** — Nile University | Feb 2024 – Feb 2025 | Labs, grading, debugging mentorship for Python, Java, C++, Discrete Math |
-| **Backend Development Intern** — Raya Trade | Aug 2024 – Sep 2024 | Built backend services (ASP.NET Core, C#) for the "Spend Smart" ecosystem; relational schemas, REST APIs |
+| **Head of Technical** — NU Students' Union | Jun 2025 – Present | Led an engineering team on campus-wide platforms & registration systems; owned full SDLC |
+| **Vice Head, SWE Course** — GDG Nile University | Mar – Jun 2025 | Co-designed curriculum with NU IECC; mentored 60+ junior students |
+| **Full Stack .NET Trainee** — DEPI | Oct 2024 – May 2025 | Built full-stack apps (C#, ASP.NET Core MVC, SQL Server) in Agile sprints |
+| **Junior Teaching Assistant** — Nile University | Feb 2024 – Feb 2025 | Labs, grading, debugging mentorship: Python, Java, C++, Discrete Math |
+| **Backend Dev Intern** — Raya Trade | Aug – Sep 2024 | Backend services (ASP.NET Core, C#) for "Spend Smart" ecosystem |
 
 ---
 
-## 🌳 Projects — a Binary(ish) Search Tree of things I've shipped
-*(ordered by system complexity, not size)*
+## 🌳 Projects — a Tree, ordered by system complexity
 
-```
-                         ┌─────────────────────────┐
-                         │  NUverse (VR + RAG)      │  🏆 1st Place, ITCS Graduation Project
-                         │  root: highest complexity│
-                         └─────────┬────────────────┘
-                    ┌──────────────┴───────────────┐
-                    ▼                               ▼
-        ┌────────────────────────┐        ┌─────────────────────────┐
-        │ NUCPA Contest Platform │        │ ASR→QA Research Pipeline│
-        │ nucpa.org              │        │ Egyptian Arabic Speech  │
-        └────────────┬───────────┘        └────────────┬────────────┘
-                      ▼                                 ▼
-        ┌────────────────────────┐        ┌─────────────────────────┐
-        │ University Coordination│        │ Full-Stack Photo Editor │
-        │ System                 │        │                         │
-        └────────────┬───────────┘        └─────────────────────────┘
-                      ▼
-        ┌────────────────────────┐
-        │ RegexFlow: NFA/DFA     │
-        │ Converter              │
-        └────────────────────────┘
+```mermaid
+graph TD
+    N0(("NUverse 🏆<br/>VR + Two-Stage RAG<br/>1st Place, ITCS Grad Project"))
+
+    N0 --> N1["NUCPA Contest Platform<br/>nucpa.org"]
+    N0 --> N2["ASR → QA Research<br/>Egyptian Arabic Speech"]
+
+    N1 --> N3["University Coordination<br/>System"]
+    N2 --> N4["Full-Stack<br/>Photo Editor"]
+
+    N3 --> N5["RegexFlow<br/>NFA/DFA Converter"]
+
+    style N0 fill:#7a5a1e,color:#fff,stroke:#fff,stroke-width:2px
+    style N1 fill:#1f3a5f,color:#fff
+    style N2 fill:#1f3a5f,color:#fff
+    style N3 fill:#2b2b2b,color:#fff
+    style N4 fill:#2b2b2b,color:#fff
+    style N5 fill:#2b2b2b,color:#fff
 ```
 
-### 🥇 `NUverse` — AI-Powered Immersive Virtual University Ecosystem
-**1st Place, ITCS Graduation Project**
-Multi-modal platform bridging a Unity VR client and a Next.js web portal through an asynchronous FastAPI backend. Implements a **zero-hallucination, Two-Stage RAG pipeline** (Qdrant vector DB + cross-encoder re-ranking) for strict, fact-grounded retrieval — think of it as a lookup structure that refuses to return a wrong answer. Also powers a voice-to-voice VR Professor and an English/Arabic code-switching admissions chatbot.
+**`NUverse`** — Multi-modal platform bridging a Unity VR client and Next.js web portal via an async FastAPI backend. Zero-hallucination, Two-Stage RAG (Qdrant + cross-encoder re-ranking) for fact-grounded retrieval; voice-to-voice VR Professor; English/Arabic code-switching admissions chatbot.
 
-### 🏗️ `NUCPA Contest Platform` — [nucpa.org](https://nucpa.org)
-Full-stack competitive-programming contest system: team registration, algorithmic validation rules, admin monitoring dashboards. `Next.js` frontend, `Django` backend, `Supabase/PostgreSQL` storage layer — cleanly decoupled, like separating your I/O layer from your core algorithm.
+**`NUCPA Contest Platform`** — Full-stack contest system: registrations, algorithmic validation, admin monitoring. Next.js + Django + Supabase/PostgreSQL, cleanly decoupled.
 
-### 🎙️ `ASR → QA Pipeline` — Analyzing Transcription Error Propagation (Research)
-End-to-end Speech-to-Text → Question-Answering pipeline for Egyptian Arabic, built on the NileTTS dataset. Fine-tuned `Whisper-small` reaching **0.1168 WER / 0.0389 CER**, then benchmarked downstream QA with generative `AraT5` vs. extractive `AraELECTRA`. Finding: span-based supervision (AraELECTRA) is the more error-tolerant traversal strategy when the input signal (ASR transcript) is noisy.
+**`ASR → QA Pipeline`** — End-to-end Speech-to-Text → QA for Egyptian Arabic (NileTTS dataset). Fine-tuned Whisper-small: **0.1168 WER / 0.0389 CER**. Benchmarked AraT5 (generative) vs. AraELECTRA (extractive) downstream.
 
-### 🏛️ `University Coordination System`
-ASP.NET Core MVC application managing the full admission funnel, degree programs, student applications, and secure transaction workflows — backed by a relational SQL Server schema.
+**`University Coordination System`** — ASP.NET Core MVC app managing the admission funnel, degree programs, and secure transactions on a relational SQL Server schema.
 
-### 🖼️ `Full-Stack Photo Editor`
-Real-time matrix filters, live histogram generation, and FFT-based noise removal. `Next.js` + `Tailwind` frontend, `Python/Flask` image-processing backend — the pipeline itself is basically a chain of transform functions applied in sequence.
+**`Full-Stack Photo Editor`** — Real-time matrix filters, live histograms, FFT noise removal. Next.js + Tailwind frontend, Python/Flask image backend.
 
-### 🔤 `RegexFlow` — Regex → NFA/DFA Converter
-Parses regular expressions, converts to postfix notation, builds NFA tables, then minimizes to DFA state configurations — rendered as live transition graphs via Graphviz. Automata theory, visualized.
+**`RegexFlow`** — Regex → postfix → NFA table → minimized DFA, rendered as live transition graphs via Graphviz.
 
 ---
 
-## 📊 Complexity Analysis of My Skillset
+## 🗃️ Skills — Hash Table Style
 
-| Skill Area | "Time Complexity" (how fast I operate) | "Space Complexity" (breadth of coverage) |
-|---|---|---|
-| Backend Architecture (C#/.NET, FastAPI, Django) | O(log n) — experienced, efficient lookups | O(n) — broad framework coverage |
-| RAG / AI Systems (Qdrant, re-ranking, LLM deploy) | O(n log n) — solid, still optimizing | O(n) — growing steadily |
-| Competitive Programming (Codeforces Specialist) | O(1) amortized — pattern recognition kicks in fast | O(n) — many problem classes solved |
-| Database Design (SQL Server, Postgres, MySQL, Supabase) | O(log n) — indexed thinking | O(n) — relational + managed platforms |
+Each skill is hashed into a bucket by category. Collisions are chained.
 
----
-
-## 🗂️ `struct Education`
-
-```cpp
-struct Education {
-    string institution = "Nile University";
-    string degree       = "B.S. Computer Science";
-    string timeline      = "2022 – Present (Expected Graduation: Summer 2026)";
-    double gpa           = 3.80; // / 4.00, Highest Honors
-};
+```
+ index │ bucket key        │ chain (collisions)
+───────┼────────────────────┼──────────────────────────────────────────
+  0    │ Languages          │ → C# → Python → Java → C++
+  1    │ Backend/APIs       │ → ASP.NET Core → FastAPI → Django → .NET Core Web API → REST APIs
+  2    │ AI & Data Eng.     │ → RAG → Qdrant → Cross-Encoder Re-ranking → LLM Deployment
+  3    │ Frontend           │ → Next.js → HTML5 → CSS3 → JavaScript → Tailwind → Bootstrap → jQuery
+  4    │ Databases          │ → SQL Server → PostgreSQL → MySQL → Supabase
+  5    │ Tools & Practices  │ → Git → GitHub → Docker → Unit Testing → System Design → Design Patterns
+  6    │ Competitive Prog.  │ → Codeforces Specialist → Advanced Algorithmic Thinking
 ```
 
-## 📜 Certifications (leaf nodes, no children — terminal achievements)
+```mermaid
+graph LR
+    H[("hash()")]
 
-- Full Stack .NET Web Developer — DEPI (May 2025)
-- 2× ECPC Qualification (2024, 2025)
-- Version Control — Meta (Sep 2024)
-- Introduction to Databases — Meta (Aug 2024)
+    H --> B0["bucket 0<br/>Languages"]
+    H --> B1["bucket 1<br/>Backend/APIs"]
+    H --> B2["bucket 2<br/>AI & Data Eng"]
+    H --> B3["bucket 3<br/>Frontend"]
+    H --> B4["bucket 4<br/>Databases"]
+    H --> B5["bucket 5<br/>Tools"]
+    H --> B6["bucket 6<br/>Comp. Prog."]
+
+    B0 --> B0a[C#] --> B0b[Python] --> B0c[Java] --> B0d[C++]
+    B1 --> B1a[ASP.NET Core] --> B1b[FastAPI] --> B1c[Django] --> B1d[.NET Core Web API]
+    B2 --> B2a[RAG] --> B2b[Qdrant] --> B2c[Cross-Encoder] --> B2d[LLM Deploy]
+    B3 --> B3a[Next.js] --> B3b[Tailwind] --> B3c[Bootstrap] --> B3d[jQuery]
+    B4 --> B4a[SQL Server] --> B4b[PostgreSQL] --> B4c[MySQL] --> B4d[Supabase]
+    B5 --> B5a[Git/GitHub] --> B5b[Docker] --> B5c[CI/CD] --> B5d[Design Patterns]
+    B6 --> B6a[Codeforces Specialist] --> B6b[Algorithmic Thinking]
+
+    style H fill:#7a2626,color:#fff,stroke:#fff,stroke-width:2px
+```
 
 ---
 
-## 📬 `connect(Omar)` — O(1) lookup, always reachable
+## 🗂️ Education
+
+```mermaid
+graph TD
+    Edu(("BS Computer Science<br/>Nile University"))
+    Edu --> E1["GPA: 3.80 / 4.00<br/>Highest Honors"]
+    Edu --> E2["2022 – Present<br/>Expected: Summer 2026"]
+
+    style Edu fill:#1f3a5f,color:#fff
+```
+
+## 📜 Certifications — leaf nodes (no children)
+
+```mermaid
+graph TD
+    Cert(("Certifications"))
+    Cert --> C1[Full Stack .NET Web Developer — DEPI, May 2025]
+    Cert --> C2[2× ECPC Qualification — 2024, 2025]
+    Cert --> C3[Version Control — Meta, Sep 2024]
+    Cert --> C4[Intro to Databases — Meta, Aug 2024]
+
+    style Cert fill:#7a5a1e,color:#fff
+```
+
+---
+
+## 📬 Connect — O(1) lookup
 
 - 📧 omarelhossiny85@gmail.com
 - 🌐 [LinkedIn](https://www.linkedin.com/in/omar-elhossiny)
@@ -176,11 +199,6 @@ struct Education {
 
 ## 🧠 Execution Philosophy
 
-- 🧩 **Algorithmic Rigor:** Architectural bottlenecks get treated like competitive programming constraints — strict time/space complexity analysis, no hand-waving.
-- 🚀 **Production-Ready:** Robust, decoupled systems with clean logic, built to scale under real-world, high-concurrency load.
-- 🌳 **Structure Over Chaos:** Every system I build has a shape — a tree, a graph, a DAG — nothing is spaghetti by accident.
-
-```cpp
-// return type of this README
-return "Backend Engineer, optimized.";
-```
+- 🧩 **Algorithmic Rigor** — architectural bottlenecks get treated like competitive programming constraints: strict time/space complexity analysis.
+- 🚀 **Production-Ready** — robust, decoupled systems with clean logic, built to scale under real-world, high-concurrency load.
+- 🌳 **Structure Over Chaos** — every system has a shape: a tree, a graph, a DAG — nothing is spaghetti by accident.

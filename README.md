@@ -1,59 +1,53 @@
-# Omar Elhossiny
-**Backend Software Engineer** · CS Graduate, Nile University (Highest Honors, 3.80 GPA) · Codeforces Specialist
-📧 omarelhossiny85@gmail.com · [LinkedIn](https://www.linkedin.com/in/omar-elhossiny) · [Codeforces](https://codeforces.com/profile/HossHoss) · [GitHub](https://github.com/omar-28-2)
+# Omar Elhossiny ⚡
+**Backend Software Engineer** | CS Graduate, Nile University (3.80 GPA) | Codeforces Specialist
 
-> Actively seeking full-time Backend / Software Engineering roles.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-elhossiny)
+[![Codeforces](https://img.shields.io/badge/Codeforces-Specialist-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/HossHoss)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omar-28-2)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omarelhossiny85@gmail.com)
+
+> 🚀 Actively seeking full-time Backend / Software Engineering roles.
 
 ---
 
-## 🌲 Tech Stack — as a Tree
+## 🌲 Tech Stack 
 
 ```mermaid
 graph TD
-    Root((Tech Stack))
+    classDef root fill:#ff3366,color:#fff,stroke:#fff,stroke-width:2px,font-weight:bold
+    classDef lang fill:#ff9900,color:#fff,stroke:#fff
+    classDef back fill:#00cc99,color:#fff,stroke:#fff
+    classDef ai fill:#6666ff,color:#fff,stroke:#fff
+    classDef db fill:#0099ff,color:#fff,stroke:#fff
+    classDef tool fill:#666666,color:#fff,stroke:#fff
 
-    Root --> Lang(Languages)
-    Root --> Back(Backend & APIs)
-    Root --> AI(AI & Data Engineering)
-    Root --> DB(Databases)
-    Root --> Tools(Tools & Practice)
+    Root((Tech Stack)):::root
 
-    Lang --> L1[C#]
-    Lang --> L2[Python]
-    Lang --> L3[Java]
-    Lang --> L4[C++]
+    Root --> Lang(Languages):::lang
+    Root --> Back(Backend & APIs):::back
+    Root --> AI(AI & Data Engineering):::ai
+    Root --> DB(Databases):::db
+    Root --> Tools(Tools & Practice):::tool
 
-    Back --> B1[ASP.NET Core / MVC]
-    Back --> B2[FastAPI — ASGI]
-    Back --> B3[Django]
-    Back --> B4[.NET Core Web API]
-    Back --> B5[REST APIs]
+    Lang --> L1[C#]:::lang
+    Lang --> L2[Python]:::lang
+    Lang --> L3[Java / C++]:::lang
 
-    AI --> A1[RAG Pipelines]
-    AI --> A2[Qdrant Vector DB]
-    AI --> A3[Cross-Encoder Re-ranking]
-    AI --> A4[LLM Deployment]
+    Back --> B1[ASP.NET Core]:::back
+    Back --> B2[FastAPI]:::back
+    Back --> B3[Django]:::back
 
-    DB --> D1[SQL Server]
-    DB --> D2[PostgreSQL]
-    DB --> D3[MySQL]
-    DB --> D4[Supabase]
+    AI --> A1[RAG Pipelines]:::ai
+    AI --> A2[Qdrant]:::ai
+    AI --> A3[LLM Deploy]:::ai
 
-    Tools --> T1[Git / GitHub]
-    Tools --> T2[Docker]
-    Tools --> T3[CI/CD]
-    Tools --> T4[Clean Architecture]
-    Tools --> T5[EF Core]
+    DB --> D1[SQL Server]:::db
+    DB --> D2[PostgreSQL]:::db
+    DB --> D3[Supabase]:::db
 
-    style Root fill:#2b2b2b,color:#fff,stroke:#888
-    style Lang fill:#1f3a5f,color:#fff
-    style Back fill:#1f3a5f,color:#fff
-    style AI fill:#1f3a5f,color:#fff
-    style DB fill:#1f3a5f,color:#fff
-    style Tools fill:#1f3a5f,color:#fff
-```
-
----
+    Tools --> T1[Git / Docker]:::tool
+    Tools --> T2[CI/CD]:::tool
+    Tools --> T3[Clean Arch]:::tool
 
 ## 🔗 Career Path — Union-Find, visualized
 

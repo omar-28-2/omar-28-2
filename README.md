@@ -1,193 +1,40 @@
-# Omar Elhossiny ⚡
-**Backend Software Engineer** | CS Graduate, Nile University (3.80 GPA) | Codeforces Specialist
+# Omar Elhossiny
+**Backend Software Engineer | Machine Learning | Codeforces Specialist**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-elhossiny)
-[![Codeforces](https://img.shields.io/badge/Codeforces-Specialist-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/HossHoss)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omar-28-2)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omarelhossiny85@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/omar-elhossiny) | [Codeforces](https://codeforces.com/profile/HossHoss) | [GitHub](https://github.com/omar-28-2) | [Email](mailto:omarelhossiny85@gmail.com)
 
-> 🚀 Actively seeking full-time Backend / Software Engineering roles.
+CS Fresh Graduate from Nile University with a 3.78 GPA. ECPC Finalist and Codeforces Specialist focused on designing scalable C#/.NET architectures and production AI/ML RAG pipelines using Python and FastAPI. 
 
----
+## Tech Stack
+* **Languages:** C#, Python, Java, C++
+* **Backend & APIs:** FastAPI, ASP.NET Core MVC, EF Core, REST APIs, Django, .NET Core Web API
+* **AI & Data Engineering:** RAG Pipelines, Vector Databases (Qdrant), Cross-Encoder Re-ranking, LLM Deployment, NLP, K-means, SVM
+* **Databases:** SQL Server, MySQL, PostgreSQL, Supabase
+* **Tools & Infrastructure:** Git, GitHub, Docker, Unit Testing, Clean Architecture
 
-## 🌲 Tech Stack 
+## Experience
+* **Head of Technical** — NU Students' Union (Jun 2025 – Aug 2026)
+  * Led an engineering team to architect, deploy, and maintain campus-wide platforms and registration systems.
+  * Managed the full SDLC, including system architecture design, code reviews, and deployment workflows.
+* **Full Stack .NET Trainee** — DEPI (Oct 2024 – May 2025)
+  * Engineered full-stack applications using C#, ASP.NET Core MVC, and SQL Server within Agile lifecycles.
+* **Junior Teaching Assistant** — Nile University (Feb 2024 – Feb 2025)
+  * Supported Python, Java, C++, and Discrete Math courses through lab delivery, grading, and debugging mentorship.
+* **Backend Development Intern** — Raya Trade (Aug 2024 – Sep 2024)
+  * Developed backend services using ASP.NET Core and C# for the Spend Smart internal ecosystem, built RESTful APIs, and designed relational database schemas.
 
-```mermaid
-graph TD
-    classDef root fill:#ff3366,color:#fff,stroke:#fff,stroke-width:2px,font-weight:bold
-    classDef lang fill:#ff9900,color:#fff,stroke:#fff
-    classDef back fill:#00cc99,color:#fff,stroke:#fff
-    classDef ai fill:#6666ff,color:#fff,stroke:#fff
-    classDef db fill:#0099ff,color:#fff,stroke:#fff
-    classDef tool fill:#666666,color:#fff,stroke:#fff
+## Featured Projects
+* **NUverse: AI-Powered Immersive Virtual University Ecosystem** *(1st Place ITCS Graduation Project)*
+  * Developed a multi-modal educational platform bridging a Unity VR client and Next.js web portal via an asynchronous FastAPI backend.
+  * Implemented a zero-hallucination, Two-Stage RAG pipeline utilizing Qdrant and cross-encoder re-ranking for strict, fact-grounded retrieval.
+* **ASR Transcription Errors Impact on QA for Egyptian Arabic** *(Research Project)*
+  * Implemented an end-to-end Speech-to-Text QA pipeline for Egyptian Arabic using the NileTTS dataset.
+  * Fine-tuned a Whisper-small ASR model achieving 0.1168 WER and 0.0389 CER, evaluating downstream performance using AraT5 and AraELECTRA.
+* **NUCPA Contest Platform**
+  * Architected a full-stack competitive web system handling team registrations and algorithmic validation workflows.
+  * Built with Next.js, a Django backend, and a Supabase PostgreSQL database layer.
 
-    Root((Tech Stack)):::root
-
-    Root --> Lang(Languages):::lang
-    Root --> Back(Backend & APIs):::back
-    Root --> AI(AI & Data Engineering):::ai
-    Root --> DB(Databases):::db
-    Root --> Tools(Tools & Practice):::tool
-
-    Lang --> L1[C#]:::lang
-    Lang --> L2[Python]:::lang
-    Lang --> L3[Java / C++]:::lang
-
-    Back --> B1[ASP.NET Core]:::back
-    Back --> B2[FastAPI]:::back
-    Back --> B3[Django]:::back
-
-    AI --> A1[RAG Pipelines]:::ai
-    AI --> A2[Qdrant]:::ai
-    AI --> A3[LLM Deploy]:::ai
-
-    DB --> D1[SQL Server]:::db
-    DB --> D2[PostgreSQL]:::db
-    DB --> D3[Supabase]:::db
-
-    Tools --> T1[Git / Docker]:::tool
-    Tools --> T2[CI/CD]:::tool
-    Tools --> T3[Clean Arch]:::tool
-```
-
----
-
-## 🔗 Career Path — Union-Find, visualized
-
-Every role is a node. Over time, each one gets **union()'d** into the same connected component — one engineer, one growing tree of experience.
-
-```mermaid
-graph BT
-    classDef root fill:#ff3366,color:#fff,stroke:#fff,stroke-width:2px,font-weight:bold
-    classDef node fill:#2b2b2b,color:#fff,stroke:#888,stroke-width:1px
-
-    Omar((Omar<br/>root of the set)):::root
-
-    R1[Backend Dev Intern<br/>Raya Trade]:::node --> R2
-    R2[Junior TA<br/>Nile University]:::node --> R3
-    R3[Full Stack .NET Trainee<br/>DEPI]:::node --> R4
-    R4[Vice Head, SWE Course<br/>GDG]:::node --> R5
-    R5[Head of Technical<br/>NU Students' Union]:::node --> Omar
-```
-
-| Node | Interval | Path-compressed summary |
-|---|---|---|
-| **Head of Technical** — NU Students' Union | Jun 2025 – Present | Led an engineering team on campus-wide platforms & registration systems; owned full SDLC |
-| **Vice Head, SWE Course** — GDG Nile University | Mar – Jun 2025 | Co-designed curriculum with NU IECC; mentored 60+ junior students |
-| **Full Stack .NET Trainee** — DEPI | Oct 2024 – May 2025 | Built full-stack apps (C#, ASP.NET Core MVC, SQL Server) in Agile sprints |
-| **Junior Teaching Assistant** — Nile University | Feb 2024 – Feb 2025 | Labs, grading, debugging mentorship: Python, Java, C++, Discrete Math |
-| **Backend Dev Intern** — Raya Trade | Aug – Sep 2024 | Backend services (ASP.NET Core, C#) for "Spend Smart" ecosystem |
-
----
-
-## 🌳 Projects — a Tree, ordered by system complexity
-
-```mermaid
-graph TD
-    N0(("NUverse 🏆<br/>VR + Two-Stage RAG<br/>1st Place, ITCS Grad Project"))
-
-    N0 --> N1["NUCPA Contest Platform<br/>nucpa.org"]
-    N0 --> N2["ASR → QA Research<br/>Egyptian Arabic Speech"]
-
-    N1 --> N3["University Coordination<br/>System"]
-    N2 --> N4["Full-Stack<br/>Photo Editor"]
-
-    N3 --> N5["RegexFlow<br/>NFA/DFA Converter"]
-
-    style N0 fill:#7a5a1e,color:#fff,stroke:#fff,stroke-width:2px
-    style N1 fill:#1f3a5f,color:#fff
-    style N2 fill:#1f3a5f,color:#fff
-    style N3 fill:#2b2b2b,color:#fff
-    style N4 fill:#2b2b2b,color:#fff
-    style N5 fill:#2b2b2b,color:#fff
-```
-
-**`NUverse`** — Multi-modal platform bridging a Unity VR client and Next.js web portal via an async FastAPI backend. Zero-hallucination, Two-Stage RAG (Qdrant + cross-encoder re-ranking) for fact-grounded retrieval; voice-to-voice VR Professor; English/Arabic code-switching admissions chatbot.
-
-**`NUCPA Contest Platform`** — Full-stack contest system: registrations, algorithmic validation, admin monitoring. Next.js + Django + Supabase/PostgreSQL, cleanly decoupled.
-
-**`ASR → QA Pipeline`** — End-to-end Speech-to-Text → QA for Egyptian Arabic (NileTTS dataset). Fine-tuned Whisper-small: **0.1168 WER / 0.0389 CER**. Benchmarked AraT5 (generative) vs. AraELECTRA (extractive) downstream.
-
-**`University Coordination System`** — ASP.NET Core MVC app managing the admission funnel, degree programs, and secure transactions on a relational SQL Server schema.
-
-**`Full-Stack Photo Editor`** — Real-time matrix filters, live histograms, FFT noise removal. Next.js + Tailwind frontend, Python/Flask image backend.
-
-**`RegexFlow`** — Regex → postfix → NFA table → minimized DFA, rendered as live transition graphs via Graphviz.
-
----
-
-## 🗃️ Skills — Hash Table Style
-
-Each skill is hashed into a bucket by category. Collisions are chained.
-
-```text
- index │ bucket key        │ chain (collisions)
-───────┼───────────────────┼──────────────────────────────────────────
-  0    │ Languages         │ → C# → Python → Java → C++
-  1    │ Backend/APIs      │ → ASP.NET Core → FastAPI → Django → .NET Core Web API → REST APIs
-  2    │ AI & Data Eng.    │ → RAG → Qdrant → Cross-Encoder Re-ranking → LLM Deployment
-  3    │ Frontend          │ → Next.js → HTML5 → CSS3 → JavaScript → Tailwind → Bootstrap → jQuery
-  4    │ Databases         │ → SQL Server → PostgreSQL → MySQL → Supabase
-  5    │ Tools & Practices │ → Git → GitHub → Docker → Unit Testing → System Design → Design Patterns
-  6    │ Competitive Prog. │ → Codeforces Specialist → Advanced Algorithmic Thinking
-```
-
-```mermaid
-graph LR
-    classDef hash fill:#ff3366,color:#fff,stroke:#fff,stroke-width:2px,font-weight:bold
-    classDef bucket fill:#333,color:#fff,stroke:#666
-    classDef item fill:#1f3a5f,color:#fff,stroke:#fff
-
-    H[("hash()")]:::hash
-
-    H --> B0["0: Backend"]:::bucket
-    H --> B1["1: AI/Data"]:::bucket
-    H --> B2["2: Databases"]:::bucket
-    H --> B3["3: CS Core"]:::bucket
-
-    B0 --> B0a[ASP.NET Core]:::item --> B0b[FastAPI]:::item --> B0c[Django]:::item
-    B1 --> B1a[RAG]:::item --> B1b[Qdrant]:::item --> B1c[LLMs]:::item
-    B2 --> B2a[SQL Server]:::item --> B2b[PostgreSQL]:::item --> B2c[MySQL]:::item
-    B3 --> B3a[Algorithmic Rigor]:::item --> B3b[Time/Space Complexity]:::item --> B3c[System Design]:::item
-```
-
----
-
-## 🗂️ Education
-
-```mermaid
-graph TD
-    Edu(("BS Computer Science<br/>Nile University"))
-    Edu --> E1["GPA: 3.80 / 4.00<br/>Highest Honors"]
-    Edu --> E2["Graduated: July 2026"]
-
-    style Edu fill:#1f3a5f,color:#fff
-```
-
-## 📜 Certifications — leaf nodes (no children)
-
-```mermaid
-graph TD
-    Cert(("Certifications"))
-    Cert --> C1[Full Stack .NET Web Developer — DEPI, May 2025]
-    Cert --> C2[2× ECPC Qualification — 2024, 2025]
-    Cert --> C3[Version Control — Meta, Sep 2024]
-    Cert --> C4[Intro to Databases — Meta, Aug 2024]
-
-    style Cert fill:#7a5a1e,color:#fff
-```
-
----
-
-## 📬 Connect — O(1) lookup
-
-- 📧 omarelhossiny85@gmail.com
-- 🌐 [LinkedIn](https://www.linkedin.com/in/omar-elhossiny)
-- 💻 [Codeforces](https://codeforces.com/profile/HossHoss)
-- 📁 [GitHub](https://github.com/omar-28-2)
-
-## 🧠 Execution Philosophy
-
-- 🧩 **Algorithmic Rigor** — architectural bottlenecks get treated like competitive programming constraints: strict time/space complexity analysis.
-- 🚀 **Production-Ready** — robust, decoupled systems with clean logic, built to scale under real-world, high-concurrency load.
-- 🌳 **Structure Over Chaos** — every system has a shape: a tree, a graph, a DAG — nothing is spaghetti by accident.
+## Education & Achievements
+* **BS in Computer Science**, Nile University — Graduated July 2026 (GPA: 3.78/4.00)
+* **ECPC Finalist**, Egyptian Collegiate Programming Contest (Aug 2026)
+* **Codeforces Specialist**, Advanced Algorithmic Thinking
